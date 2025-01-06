@@ -1,0 +1,12 @@
+import numpy as np
+from skimage.metrics import structural_similarity as ssim
+
+def calculate_psnr(image1, image2, max_pixel_value=255.0):
+    mse = np.mean((image1 - image2) ** 2)
+    if mse == 0:
+        return float('inf')
+    return 20 * np.log10(max_pixel_value / np.sqrt(mse))
+
+def calculate_ssim(image1, image2):
+    score, _ = ssim(image1, image2, full=True)
+    return score
