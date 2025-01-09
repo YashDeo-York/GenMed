@@ -40,7 +40,8 @@ To install the package:
 ```bash
 pip install git+https://github.com/your-username/generative-metrics-medical-imaging.git
 
-## Supported Metrics
+---
+## Upstream Metrics
 ### Perceptual
 -SSIM
 -MS-SSIM
