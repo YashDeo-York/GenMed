@@ -1,10 +1,10 @@
-# Generative Metrics for Medical Imaging
+# GenEval (Library for evalaution of generative models)
 
 ![License](https://img.shields.io/badge/license-MIT-green)
 ![Python](https://img.shields.io/badge/python-3.8%2B-blue)
 ![Build](https://img.shields.io/github/actions/workflow/status/your-username/generative-metrics-medical-imaging/tests.yml?branch=main)
 
-This repository accompanies the paper **"Comparing Generative Metrics for Medical Imaging with Clinical Utility"**. It provides a Python package for evaluating generative models in the context of medical imaging. The package implements both upstream metrics (e.g., SSIM, PSNR) and downstream clinical utility evaluations (e.g., tumor segmentation accuracy, vessel detection).
+This repository accompanies the paper **"Metrics That Matter: Evaluating Generative Medical Images for Clinical Relevance"**. It provides a Comprehensive Python package for evaluating generative models in the context of medical imaging. The package implements both upstream metrics (e.g., SSIM, PSNR) and downstream clinical utility evaluations (e.g., tumor segmentation accuracy, vessel detection).
 
 ---
 
@@ -41,17 +41,5 @@ To install the package:
 pip install git+https://github.com/your-username/generative-metrics-medical-imaging.git
 
 ---
-## Upstream Metrics
-### Perceptual
--SSIM
--MS-SSIM
--4GR-SSIM
--PSNR
 
-### Generative
--LPIPS
--ASW
--KID
--Realism Score
--FLS
--DreamSIM
+
