@@ -39,3 +39,18 @@ This repository accompanies the paper **"Comparing Generative Metrics for Medica
 To install the package:
 ```bash
 pip install git+https://github.com/your-username/generative-metrics-medical-imaging.git
+
+## Supported Metrics
+### Perceptual
+-SSIM
+-MS-SSIM
+-4GR-SSIM
+-PSNR
+
+### Generative
+-LPIPS
+-ASW
+-KID
+-Realism Score
+-FLS
+-DreamSIM
