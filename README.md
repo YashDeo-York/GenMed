@@ -6,6 +6,8 @@
 
 This repository accompanies the paper **"Metrics That Matter: Evaluating Generative Medical Images for Clinical Relevance"**. It provides a Comprehensive Python package for evaluating generative models in the context of medical imaging. The package implements both upstream metrics (e.g., SSIM, PSNR) and downstream clinical utility evaluations (e.g., tumor segmentation accuracy, vessel detection).
 
+
+***** This github is currently under developemnt and will be published soon *******
 ---
 
 ## Key Features
@@ -35,11 +37,6 @@ This repository accompanies the paper **"Metrics That Matter: Evaluating Generat
 - Python 3.8 or higher
 - `pip` for managing dependencies
 
-### Install via pip
-To install the package:
-```bash
-pip install git+https://github.com/your-username/generative-metrics-medical-imaging.git
 
----
 
 
