@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+*.egg
+*.whl
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Data files (if you decide to put large data here locally, but not commit)
+# data/*.nii.gz
+# data/*.csv
+# data/*.pkl
+# data/IXI-T2/ # Example if you download IXI here but don't want to commit
+# data/BraTS_data/ # Example if you download BraTS here
+
+# Results (ignore contents of results_output, but keep the directory itself via .gitkeep)
+results_output/*
+!results_output/.gitkeep
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# IDE specific
+.vscode/
+.idea/
+*.suo
+*.user
+*.sln
+*.tmp
+
+# TensorFlow/Keras model files (if saved and large)
+# *.h5
+# *.keras
+
+# Log files
+*.log

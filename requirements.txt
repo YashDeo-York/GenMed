@@ -1,0 +1,12 @@
+numpy
+pandas
+opencv-python
+nibabel
+scipy
+matplotlib
+tqdm
+scikit-learn
+scikit-image
+tensorflow # Or tensorflow-cpu if GPU not strictly needed for all users
+# Add specific versions later, e.g., numpy==1.23.5
+# Add other libraries like torch if used for generative models or Evanyseg
